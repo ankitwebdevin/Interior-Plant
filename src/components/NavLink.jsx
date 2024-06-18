@@ -1,6 +1,7 @@
 // react-scroll
 import { Link } from "react-scroll";
 
+// eslint-disable-next-line react/prop-types
 const NavLink = ({ children, to, offset = -50, mobileMenu = false }) => {
   const className = mobileMenu
     ? "text-lg text-black hover:text-white cursor-pointer hover:bg-[linear-gradient(90deg,_#2AF598_0%,_#009EFD_100%)] w-full text-center"
